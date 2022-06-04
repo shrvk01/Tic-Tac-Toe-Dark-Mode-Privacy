@@ -1,0 +1,38 @@
+.About {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 68%; 
+}
+
+.About-Table {
+    margin-right: auto;
+    margin-left: auto;
+    width: 68%;
+}
+
+.About-h1 {
+    font-family: "Acme", sans-serif;
+    font-size: 3rem;
+}
+
+.About-p {
+    font-family: "Abhaya Libre", serif;
+    font-size: 1.8rem;
+}
+
+@media (max-width: 1028px) {
+
+    .About {
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        width: 100%; 
+    }
+    
+    .About-Table {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+}
